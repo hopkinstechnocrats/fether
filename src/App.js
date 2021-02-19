@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import RoundBox from './components/RoundBox.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RoundBox color="teal"> 
+      <p>Example teal box</p>
+      </RoundBox>
+      <RoundBox color="grey"> 
+      <p>Example grey box</p>
+      </RoundBox>
+      <RoundBox color="orange"> 
+      <p>Example orange box</p>
+      </RoundBox>
     </div>
   );
 }

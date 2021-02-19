@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.RoundBox-teal {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #256d70;
+}
+
+.RoundBox-grey {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #d5ded8;
+}
+
+.RoundBox-orange {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fe8833;
+}
+
+
+
+
+
