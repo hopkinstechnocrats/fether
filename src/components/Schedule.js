@@ -9,8 +9,8 @@ class Schedule extends React.Component {
             <div>
                 <h1>Schedule</h1>
                 <WorkoutScheduleView date="January 21" color="orange" time="9:00 - 10:00 AM" title="Long Run" location="108 Jardine Ave, Jackson, MT 59736 " />
-                <WorkoutScheduleView date="January 21" color="orange" time="9:00 - 10:00 AM" title="Long Run" location="108 Jardine Ave, Jackson, MT 59736 " />
-                <WorkoutScheduleView date="January 21" color="orange" time="9:00 - 10:00 AM" title="Long Run" location="108 Jardine Ave, Jackson, MT 59736 " />
+                <WorkoutScheduleView date="January 21" color="teal" time="9:00 - 10:00 AM" title="Long Run" location="108 Jardine Ave, Jackson, MT 59736 " />
+                <WorkoutScheduleView date="January 21" color="grey" time="9:00 - 10:00 AM" title="Long Run" location="108 Jardine Ave, Jackson, MT 59736 " />
             </div>
         );
     }

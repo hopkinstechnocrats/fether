@@ -1,11 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import RoundBox from './components/RoundBox.js'
 import Schedule from './components/Schedule.js'
+import Tabs from './components/Tabs.js';
 
 function App() {
   return (
-    <Schedule></Schedule>
+    <Tabs>
+      <div label="Schedule">
+        <Schedule></Schedule>
+      </div>
+      <div label="Explore">
+        <p>Explore</p>
+      </div>
+      <div label="Profile">
+        <p>Profile</p>
+      </div>
+    </Tabs>
   );
 }
 
