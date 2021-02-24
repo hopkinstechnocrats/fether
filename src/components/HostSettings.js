@@ -1,5 +1,4 @@
-import RoundBox from './components/RoundBox.js';
-import logo from './logo.svg';
+import RoundBox from './RoundBox.js';
 import './HostSettings.css';
 
 function HostSettings() {
@@ -49,3 +48,5 @@ function HostSettings() {
     </div>
     );
 }
+
+export default HostSettings;
