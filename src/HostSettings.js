@@ -28,10 +28,23 @@ function HostSettings() {
             </RoundBox>
             <RoundBox color="darkTeal">
                 <p><b>Upcoming Workouts:</b><br></br>
+                Name:</p>
                 <RoundBox color="teal">
-                    <p></p>
+                    <p>Sunrise Swim</p>
                 </RoundBox>
-            </RoundBox>
+                <p>Date:</p>
+                <RoundBox color="teal">
+                    <p>7/13/2021</p>
+                </RoundBox>
+                <p>Time:</p>
+                <RoundBox color="teal">
+                    <p>6:15     AM</p>
+                </RoundBox>
+                <p>Pace:</p>
+                <RoundBox color="teal">
+                    <p>15:50 / mile</p>
+                </RoundBox>
+                </RoundBox>
         </RoundBox>
     </div>
     );
