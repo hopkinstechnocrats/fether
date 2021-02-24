@@ -38,6 +38,12 @@ function App() {
         Founded 6/12/2013<br></br>
         Biking ~ 7 mph</p>
       </RoundBox>
+      <RoundBox color="darkTeal">
+      <p><u><b>BTS Bikers</b></u><br></br>
+        777 members<br></br>
+        Founded 6/12/2013<br></br>
+        Biking ~ 7 mph</p>
+      </RoundBox>
       </RoundBox>
     </div>
   );
