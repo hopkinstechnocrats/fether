@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import RoundBox from './components/RoundBox.js';
+import Schedule from './components/Schedule.js'
+import Tabs from './components/Tabs.js';
+import HostSettings from './components/HostSettings';
 
 function App() {
   return (
-    <div className="App">
+    <Tabs>
+      <div label="Schedule">
+        <Schedule></Schedule>
+      </div>
+      <div label="Explore">
       <h1>explore</h1>
       <RoundBox color="grey">
 
@@ -45,21 +52,12 @@ function App() {
         Biking ~ 7 mph</p>
       </RoundBox>
       </RoundBox>
-    </div>
-import Schedule from './components/Schedule.js'
-import Tabs from './components/Tabs.js';
-
-function App() {
-  return (
-    <Tabs>
-      <div label="Schedule">
-        <Schedule></Schedule>
-      </div>
-      <div label="Explore">
-        <p>Explore</p>
       </div>
       <div label="Profile">
         <p>Profile</p>
+      </div>
+      <div label="HostSettings">
+        <HostSettings></HostSettings>
       </div>
     </Tabs>
   );
