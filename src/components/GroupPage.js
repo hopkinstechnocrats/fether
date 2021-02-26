@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import RoundBox from './RoundBox.js';
-import './GroupPage.css';
 
 function GroupPage() {
     return (
