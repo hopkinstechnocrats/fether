@@ -118,7 +118,12 @@ h1 {
   color:white;
   text-align:left;
   line-height: 1.5;
-
+  max-width: 250px;
+  display: flex;
+  justify-content: right;
+  flex-flow: column wrap;
+  padding-top:0px;
+  padding-bottom: 0px;
 }
 
 .RoundBox-receiveChat {
@@ -130,7 +135,12 @@ h1 {
   color:white;
   text-align:left;
   line-height: 1.5;
-
+  max-width: 250px;
+  display: flex;
+  justify-content: left;
+  flex-flow: column wrap;
+  padding-top:0px;
+  padding-bottom: 0px;
 }
 
 
