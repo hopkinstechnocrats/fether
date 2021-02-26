@@ -48,10 +48,11 @@ function HostSettings() {
                     <p>4135 W Lake Harriet Pkwy</p>
                 </RoundBox>
                 </RoundBox>
+                <RoundBox color="lightOrange">
+                  <p>Testing the color</p>
+                </RoundBox>
         </RoundBox>
-        <RoundBox color="lightOrange">
-        <p>Testing the color</p>
-        </RoundBox>
+        
     </div>
     );
 }
