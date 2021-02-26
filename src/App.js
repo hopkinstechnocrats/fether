@@ -5,6 +5,7 @@ import Schedule from './components/Schedule.js'
 import Tabs from './components/Tabs.js';
 import HostSettings from './components/HostSettings.js';
 import Explore from './components/Explore.js'
+import Chatboard from './components/Chatboard.js';
 
 function App() {
   return (
