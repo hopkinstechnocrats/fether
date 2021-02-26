@@ -170,7 +170,7 @@ h3 {
 .tab-list {
   border-top: 1px solid #ccc;
   padding-left: 0;
-  height: 200px;
+  height: 100%;
   width: 100%;
 }
 
