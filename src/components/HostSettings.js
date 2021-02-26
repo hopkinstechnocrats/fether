@@ -43,6 +43,10 @@ function HostSettings() {
                 <RoundBox color="teal">
                     <p>15:50 / mile</p>
                 </RoundBox>
+                <p>Location:</p>
+                <RoundBox color="teal">
+                    <p>4135 W Lake Harriet Pkwy</p>
+                </RoundBox>
                 </RoundBox>
         </RoundBox>
     </div>
