@@ -48,9 +48,9 @@ function HostSettings() {
                     <p>4135 W Lake Harriet Pkwy</p>
                 </RoundBox>
                 </RoundBox>
-                <RoundBox color="maroon">
-                  <p>Testing the color</p>
-                </RoundBox>
+          <RoundBox color="maroon">
+              <p>hi why isnt this working</p>
+          </RoundBox>
         </RoundBox>
         
     </div>
