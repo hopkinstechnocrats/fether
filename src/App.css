@@ -45,22 +45,21 @@ h1 {
 
 .RoundBox-teal {
     box-sizing: border-box;
-    padding: 15px;
+    padding: 10px;
     margin: 8px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #256d70;
     color:white;
     text-align:left;
-    padding-top: 0px;
-  padding-bottom:0px;
+    line-height: 1.5;
 
 }
 
 .RoundBox-grey {
   box-sizing: border-box;
-  padding: 5px;
-  margin: 15px;
-  border-radius: 20px;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
   background-color: #d5ded8;
   line-height:1.5;
   max-height: 740px;
@@ -72,15 +71,13 @@ h1 {
 
 .RoundBox-orange {
   box-sizing: border-box;
-  padding: 15px;
+  padding: 10px;
   margin: 8px;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #c05000;
   line-height:1.5;
   color:white;
   text-align:left;
-  padding-top: 0px;
-  padding-bottom:0px;
   
 }
 
@@ -88,8 +85,22 @@ h1 {
   box-sizing: border-box;
     padding: 15px;
     margin: 8px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #053638;
+    color:white;
+    line-height:1.5;
+    text-align:left;
+    padding-top: 0px;
+    padding-bottom:0px;
+
+}
+
+.RoundBox-maroon {
+  box-sizing: border-box;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: #870725;
     color:white;
     line-height:1.5;
     text-align:left;
