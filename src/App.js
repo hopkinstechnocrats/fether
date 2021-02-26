@@ -24,6 +24,9 @@ function App() {
       <div label="Chatboard">
         <Chatboard></Chatboard>
       </div>
+      <div label="Group">
+        <GroupPage></GroupPage>
+      </div>
     </Tabs>
   );
 }

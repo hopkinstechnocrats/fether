@@ -43,6 +43,17 @@ h1 {
   margin:5px;
 }
 
+div {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+div.column {
+  float: left;
+  width: 50%;
+}
+
 .RoundBox-teal {
     box-sizing: border-box;
     padding: 10px;
@@ -156,7 +167,7 @@ h3 {
   list-style: none;
   text-align: center;
   height: 100%;
-  width: 25%;
+  width: 16%;
 }
 
 .tab-content {
