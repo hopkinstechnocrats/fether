@@ -95,12 +95,12 @@ h1 {
 
 }
 
-.RoundBox-lightOrange {
+.RoundBox-maroon {
   box-sizing: border-box;
     padding: 15px;
     margin: 8px;
     border-radius: 10px;
-    background-color: #bf0b3e;
+    background-color: #870725;
     color:white;
     line-height:1.5;
     text-align:left;
