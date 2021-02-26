@@ -49,6 +49,9 @@ function HostSettings() {
                 </RoundBox>
                 </RoundBox>
         </RoundBox>
+        <RoundBox color="lightOrange">
+        <p>Testing the color</p>
+        </RoundBox>
     </div>
     );
 }
