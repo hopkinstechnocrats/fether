@@ -49,8 +49,8 @@ h1 {
 
 div {
   box-sizing: border-box;
-  height: 100%;
-  width: 100%;
+  height: calc(100%-16px);
+  width: calc(100%-16px);
 }
 
 div.column {
@@ -79,7 +79,6 @@ div.column {
   background-color: #d5ded8;
   line-height:1.5;
   max-height: 740px;
-  overflow:scroll;
   display: flex;
   flex-direction:column;
 
