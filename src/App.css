@@ -53,6 +53,10 @@ div {
   width: calc(100%-16px);
 }
 
+div.root {
+  height: 100%;
+}
+
 div.column {
   display: inline-block;
   float: left;
@@ -188,9 +192,11 @@ h3 {
 .tab-content {
   box-sizing: border-box;
   height: calc(100% - 40px);
+  overflow: hidden;
 }
 
 .tabs {
-  height: 100vh
+  height: 100vh;
+  overflow: hidden;
 }
 
