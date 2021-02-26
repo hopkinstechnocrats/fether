@@ -109,6 +109,31 @@ h1 {
 
 }
 
+.RoundBox-sendChat {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  background-color: #256d70;
+  color:white;
+  text-align:left;
+  line-height: 1.5;
+
+}
+
+.RoundBox-receiveChat {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  background-color: #870725;
+  color:white;
+  text-align:left;
+  line-height: 1.5;
+
+}
+
+
 h1 {
   text-align: center;
 }

@@ -21,6 +21,9 @@ function App() {
       <div label="HostSettings">
         <HostSettings></HostSettings>
       </div>
+      <div label="Chatboard">
+        <Chatboard></Chatboard>
+      </div>
     </Tabs>
   );
 }
