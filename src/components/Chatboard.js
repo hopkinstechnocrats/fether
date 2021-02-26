@@ -9,7 +9,7 @@ function Chatboard() {
                 <p>Sending a message out.</p>
             </RoundBox>
             <RoundBox color="receiveChat">
-                <p>And I've received your text! lol</p>
+                <p>And I've received your text! lol Let's make this really long and see what happens to it, shall we?</p>
             </RoundBox>
         </div>
     );
