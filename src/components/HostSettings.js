@@ -4,7 +4,7 @@ import './HostSettings.css';
 function HostSettings() {
     return(
     <div className="HostSettings">
-        <h1>Host Settings</h1>
+        <h1>settings</h1>
         <hr></hr>
         <RoundBox color="grey">
             <RoundBox color="darkTeal">
@@ -48,6 +48,13 @@ function HostSettings() {
                     <p>4135 W Lake Harriet Pkwy</p>
                 </RoundBox>
                 </RoundBox>
+<<<<<<< HEAD
+=======
+        </RoundBox>
+
+        <RoundBox color="maroon">
+          <p>hi please work now</p>
+>>>>>>> 04e80d5de5e2ed4a83d0cbbd0ff1e0e9f88a64fe
         </RoundBox>
 
         <RoundBox color="maroon">
