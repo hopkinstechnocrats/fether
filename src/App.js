@@ -7,6 +7,7 @@ import HostSettings from './components/HostSettings.js';
 import Explore from './components/Explore.js'
 import Chatboard from './components/Chatboard.js';
 import GroupPage from './components/GroupPage.js';
+import Profile from './components/Profile.js';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Explore></Explore>
       </div>
       <div label="Profile">
-        <p>Profile</p>
+        <Profile></Profile>
       </div>
       <div label="HostSettings">
         <HostSettings></HostSettings>
