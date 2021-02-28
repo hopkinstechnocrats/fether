@@ -6,6 +6,7 @@ import Tabs from './components/Tabs.js';
 import HostSettings from './components/HostSettings.js';
 import Explore from './components/Explore.js'
 import Chatboard from './components/Chatboard.js';
+import GroupPage from './components/GroupPage.js';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       </div>
       <div label="Chatboard">
         <Chatboard></Chatboard>
+      </div>
+      <div label="Group">
+        <GroupPage></GroupPage>
       </div>
     </Tabs>
   );
