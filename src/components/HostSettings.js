@@ -50,9 +50,6 @@ function HostSettings() {
                 </RoundBox>
         </RoundBox>
 
-        <RoundBox color="maroon">
-          <p>hi please work now</p>
-        </RoundBox>
         
     </div>
     );
