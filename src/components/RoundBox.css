@@ -75,6 +75,7 @@
   flex-flow: column wrap;
   padding-top:0px;
   padding-bottom: 0px;
+  float: right;
 }
 
 .RoundBox-receiveChat {
