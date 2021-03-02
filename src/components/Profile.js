@@ -7,15 +7,9 @@ function Profile() {
     <div className="Profile">
       <h2>Profile</h2>
       <span class="dot"></span>
-<<<<<<< HEAD
-      <h3>Taylor S.</h3>
-      <p>West Redding, PA
-      <br>Bio</p>
-=======
       <h3>Name</h3>
       <p>City, State
       <br/>Bio</p>
->>>>>>> 49f47f47a94ae5ce8cfa6e1d8a5ce23b3f815bec
       <table>
         <tr>
           <th>Age</th>
