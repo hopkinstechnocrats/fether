@@ -13,12 +13,12 @@ function Chatboard() {
             <RoundBox color="receiveChat">
                 <p>And I've received your text! lol Let's make this really long and see what happens to it, shall we?</p>
             </RoundBox>
+        <div className="SendingMessages">
             <label for="sent messages">Send a message to the group</label>
-            <input type="text"
+            <input class="Chatbox" type="text"
             name="sent messages"
-            id="sent messages"
-            value="Send a message to the group"></input>
-
+            id="sent messages"></input>
+        </div>
 
         </div>
     );
