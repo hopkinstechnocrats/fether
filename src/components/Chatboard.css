@@ -18,3 +18,39 @@
     margin:0px;
     padding: 0px;
 }
+
+.sendChat {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: #256d70;
+    color:white;
+    text-align:left;
+    line-height: 1.5;
+    max-width: 250px;
+    display: flex;
+    justify-content: right;
+    flex-flow: column wrap;
+    padding-top:0px;
+    padding-bottom: 0px;
+    float: right;
+  }
+  
+  .receiveChat {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: #870725;
+    color:white;
+    text-align:left;
+    line-height: 1.5;
+    max-width: 250px;
+    display: flex;
+    justify-content: left;
+    flex-flow: column wrap;
+    padding-top:0px;
+    padding-bottom: 0px;
+  }
+  

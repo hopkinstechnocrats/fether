@@ -6,7 +6,20 @@
     text-align:left;
     line-height: 1.5;
 }
-
+/* div {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  background-color: #d5ded8;
+  line-height:1.5;
+  max-height: 650px;
+  overflow:scroll;
+  display: flex;
+  flex-direction:column;
+  height: calc(100%-16px);
+  width: calc(100%-16px);
+} */
 .teal {
     background-color: #256d70;
 }
@@ -45,39 +58,4 @@
     padding-top: 0px;
     padding-bottom:0px;
 
-}
-
-.RoundBox-sendChat {
-  box-sizing: border-box;
-  padding: 10px;
-  margin: 8px;
-  border-radius: 10px;
-  background-color: #256d70;
-  color:white;
-  text-align:left;
-  line-height: 1.5;
-  max-width: 250px;
-  display: flex;
-  justify-content: right;
-  flex-flow: column wrap;
-  padding-top:0px;
-  padding-bottom: 0px;
-  float: right;
-}
-
-.RoundBox-receiveChat {
-  box-sizing: border-box;
-  padding: 10px;
-  margin: 8px;
-  border-radius: 10px;
-  background-color: #870725;
-  color:white;
-  text-align:left;
-  line-height: 1.5;
-  max-width: 250px;
-  display: flex;
-  justify-content: left;
-  flex-flow: column wrap;
-  padding-top:0px;
-  padding-bottom: 0px;
 }
