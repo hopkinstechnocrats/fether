@@ -11,15 +11,18 @@ class Chatboard extends Component {
                 {
                     outerType: "SendChat",
                     innerType: "sendChat",
-                    text: "Sending a message out."
+                    text: "Sending a message out.",
+                    msgkey: 0
                 },
                 {
                     outerType: "ReceiveChat",
                     innerType: "receiveChat",
-                    text: "And I've received your text! lol Let's make this really long and see what happens to it, shall we?"
+                    text: "And I've received your text! lol Let's make this really long and see what happens to it, shall we?",
+                    msgkey: 1
                 }
             ],
-            value: "Send a message to the group"
+            value: "Send a message to the group",
+            nextmsgkey: 2
         }
     }
 
@@ -29,12 +32,14 @@ class Chatboard extends Component {
             const newMessage = {
                 outerType: "SendChat",
                 innerType: "sendChat",
-                text: state.value
+                text: state.value,
+                msgkey: state.nextmsgkey
             }
             const newMessages = [...state.messages, newMessage];
             return ({
                 messages: newMessages,
-                value: ""
+                value: "",
+                nextmsgkey: state.nextmsgkey + 1
             });
         });
         event.preventDefault();
@@ -48,7 +53,7 @@ class Chatboard extends Component {
         let messagejsx = this.state.messages.map(
             (value) => {
                 return (
-                    <div key={value.text} className={value.outerType}>
+                    <div key={value.msgkey} className={value.outerType}>
                         <RoundBox color={value.innerType}>
                             <p>{value.text}</p>
                         </RoundBox>

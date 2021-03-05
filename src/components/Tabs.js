@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Tab from './Tab';
+import {
+    HashRouter as Router,
+    Switch,
+    Route
+} from 'react-router-dom';
 
 class Tabs extends Component {
     static propTypes = {
@@ -31,37 +36,51 @@ class Tabs extends Component {
         } = this;
 
         return (
-            <div className="tabs">
-                <div className="tab-content">
-                    {
-                        children.map(
-                            (child) => {
-                                if (child.props.label != activeTab) return undefined;
-                                return child.props.children;
+            <Router>
+                <div className="tabs">
+                    <div className="tab-content">
+                        <Switch>
+                            {
+                                children.map(
+                                    (child) => {
+                                        const path = "/"+child.props.label;
+                                        console.log(path);
+                                        return (
+                                        <Route path={path} key={child.props.label}>
+                                            {child.props.children}
+                                        </Route>
+                                        );
+                                    }
+                                )
                             }
-                        )
-                    }
-                </div>
-                <ol className="tab-list">
-                    {
-                        children.map(
-                            (child) => {
-                                const { label } = child.props;
+                            <Route path="/Schedule">
+                                {children[0].props.children}
+                            </Route>
+                        </Switch>
+                    </div>
+                    <ol className="tab-list">
+                        {
+                            children.map(
+                                (child) => {
+                                    const { label, icon } = child.props;
 
-                                return (
-                                    <Tab
-                                        activeTab={activeTab}
-                                        key={label}
-                                        label={label}
-                                        onClick={onClickTabItem}
-                                    />
-                                );
-                            }
-                        )
-                    
-                    }
-                </ol>
-            </div>
+                                    return (
+                                        <Tab
+                                            activeTab={activeTab}
+                                            key={label}
+                                            label={label}
+                                            onClick={onClickTabItem}
+                                            href={label}
+                                            icon={icon}
+                                        />
+                                    );
+                                }
+                            )
+
+                        }
+                    </ol>
+                </div>
+            </Router>
         );
     }
 }

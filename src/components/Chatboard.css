@@ -3,8 +3,6 @@
     padding:10px;
     margin:10px;
     height: calc(100% - 20px);
-    display: flex;
-    flex-flow: column;
     overflow:hidden;
 }
 
@@ -13,14 +11,16 @@
 }
 
 .viewMessages {
-    flex: 1 0 auto;
+    height: calc(100% - 20vh);
+    overflow: scroll;
 }
 
 .SendingMessages {
     /*positioning*/
-    flex: 0 1 20vh;
-    width:calc(100%+20px);
-    margin: -10px;
+    height: 20vh;
+    width:calc(100% + 20px);
+    margin-left: -10px;
+    margin-bottom: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,6 @@
     background-color: #000000;
     color:white;
     /*Other*/
-    margin: -10px;
 }
 
 .Typebox {

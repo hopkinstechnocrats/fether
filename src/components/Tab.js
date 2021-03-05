@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 
 class Tab extends Component {
     static propTypes = {
@@ -19,6 +20,8 @@ class Tab extends Component {
             props: {
                 activeTab,
                 label,
+                href,
+                icon
             },
         } = this;
 
@@ -28,8 +31,10 @@ class Tab extends Component {
             <li
                 className={className}
                 onClick={onClick}
+                href={href}
             >
-                {label}
+                <Link to={href}>{icon}</Link>
+                
             </li>
         )
     }
