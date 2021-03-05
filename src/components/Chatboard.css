@@ -30,6 +30,9 @@
 }
 .SendChat {
     margin-right:0px;
+    display:flex;
+    justify-content:flex-end;
+
 }
 
 .sendChat {
@@ -45,6 +48,8 @@
     flex-flow: column wrap;
     padding-top:0px;
     padding-bottom: 0px;
+    /*positioning*/
+    
   }
   
   .receiveChat {
