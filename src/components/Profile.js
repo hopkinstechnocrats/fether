@@ -5,7 +5,7 @@ import RoundBox from './RoundBox.js';
 function Profile() {
   return(
     <div className="Profile">
-      <center> <h2>Profile</h2>
+      <center> <h1>Profile</h1>
       <span class="dot"></span>
       <i class="fas fa-user-circle"></i>
       <h2>Taylor S.</h2>
