@@ -6,3 +6,13 @@
   border-radius: 50%;
   display: inline-block;
 }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: left;
+}
+.scrollbox {
+    flex-grow: 1;
+    overflow: scroll;
+}
