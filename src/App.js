@@ -18,9 +18,11 @@ function App() {
       </div>
       <div label="Explore">
         <Explore> </Explore>
+        <i class="fas fa-globe-americas"></i>
       </div>
       <div label="Profile">
         <Profile></Profile>
+        <i class="fas fa-user-alt"></i>
       </div>
       <div label="Host Settings">
         <HostSettings></HostSettings>
