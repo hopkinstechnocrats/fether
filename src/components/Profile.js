@@ -8,8 +8,8 @@ function Profile() {
       <center> <h2>Profile</h2>
       <span class="dot"></span>
       <h2>Taylor S.</h2>
-      <p>West Redding, PA
-      <br />Bio</p>
+      <h4>West Redding, PA
+      <br />Bio</h4>
       <table>
         <tr>
           <th>Age</th>
