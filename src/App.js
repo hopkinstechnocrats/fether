@@ -26,6 +26,7 @@ function App() {
         <HostSettings></HostSettings>
       </div>
       <div label="Chatboard">
+        <h1>JungKook Joggers</h1>
         <Chatboard></Chatboard>
       </div>
       <div label="Group">

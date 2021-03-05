@@ -20,13 +20,20 @@ function GroupPage() {
                     </div>
                 </RoundBox>
                 <p className="textWithMargin">Welcome! We’re a group of friendly, neighborhood joggers. Most of our members are 50+ years old, and we get together every Sunday to walk/run a marathon.</p>
+                <div className="column">
+                <div className="row">
                 <RoundBox color="grey scrollbox boundedScrollbox">
                     <h2>Upcoming Workouts</h2>
                     <Schedule></Schedule>
                 </RoundBox>
+                </div>
+                <div className="row">
                 <RoundBox color="grey scrollbox boundedScrollbox">
+                    <h2>Chat</h2>
                     <Chatboard></Chatboard>
                 </RoundBox>
+                </div>
+                </div>
         </div>
     );
 }

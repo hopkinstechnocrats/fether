@@ -83,6 +83,9 @@ div.container {
   overflow: hidden;
 }
 
+h2 {
+  margin: 0px;
+}
 
 h1 {
   text-align: center;

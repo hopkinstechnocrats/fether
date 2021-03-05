@@ -6,7 +6,6 @@ import './RoundBox.css';
 function Chatboard() {
     return(
         <div className="Chatboard">
-            <h1>JungKook Joggers</h1>
             <div className="BackgroundBox">
             <RoundBox color="grey">
             <RoundBox color="sendChat">
