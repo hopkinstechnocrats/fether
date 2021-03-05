@@ -26,7 +26,7 @@ function Explore() {
         Founded 11/20/2003<br></br>
         Running ~ 11:00/mile</p>
       </RoundBox>
-      <RoundBox color="teal">
+      <RoundBox color="maroon">
         <p><u><b>Raging Runners</b></u><br></br>
         17 members<br></br>
         Founded 1/1/2000<br></br>
