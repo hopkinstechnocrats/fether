@@ -16,13 +16,11 @@ function App() {
       <h1>Schedule</h1>
         <Schedule></Schedule>
       </div>
-      <div label="Explore">
+      <div label="Explore" icon={<i class="fas fa-globe-americas"></i>}>
         <Explore> </Explore>
-        <i class="fas fa-globe-americas"></i>
       </div>
-      <div label="Profile">
+      <div label="Profile" icon={<i class="fas fa-user-alt"></i>}>
         <Profile></Profile>
-        <i class="fas fa-user-alt"></i>
       </div>
       <div label="Host Settings">
         <HostSettings></HostSettings>
@@ -31,7 +29,7 @@ function App() {
         <h1>Swift Skiers</h1>
         <Chatboard></Chatboard>
       </div>
-      <div label="Group">
+      <div label="Group"icon={<i class="fas fa-users"></i>}>
         <GroupPage>
         </GroupPage>
       </div>
