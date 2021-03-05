@@ -23,16 +23,21 @@ class Chatboard extends Component {
         }
     }
 
-    handleSubmit = () => {
-        this.setState({
-            messages: this.state.messages.push(
-                {
-                    outerType: "ReceiveChat",
-                    innerType: "receiveChat",
-                    text: this.state.value
-                }
-            )
+    handleSubmit = (event) => {
+        console.log("handling submit");
+        this.setState( (state, props) => {
+            const newMessage = {
+                outerType: "SendChat",
+                innerType: "sendChat",
+                text: state.value
+            }
+            const newMessages = [...state.messages, newMessage];
+            return ({
+                messages: newMessages,
+                value: ""
+            });
         });
+        event.preventDefault();
     }
 
     handleChange = (event) => {
@@ -40,21 +45,24 @@ class Chatboard extends Component {
     }
 
     render() {
+        let messagejsx = this.state.messages.map(
+            (value) => {
+                return (
+                    <div key={value.text} className={value.outerType}>
+                        <RoundBox color={value.innerType}>
+                            <p>{value.text}</p>
+                        </RoundBox>
+                    </div>
+                );
+            }
+        );
+        console.log(this.state.messages);
+        console.log(this.state.value);
         return (
             <div className="BackgroundBox">
                 <RoundBox color="grey">
                     <div className="viewMessages">
-                        {this.state.messages.map(
-                            (value) => {
-                                return (
-                                    <div className={value.outerType}>
-                                        <RoundBox color={value.innerType}>
-                                            <p>{value.text}</p>
-                                        </RoundBox>
-                                    </div>
-                                );
-                            }
-                        )}
+                        {messagejsx}
                     </div>
                     <div className="SendingMessages">
                         <form onSubmit={this.handleSubmit}>
