@@ -4,32 +4,32 @@ import './HostSettings.css';
 function HostSettings() {
     return(
     <div className="HostSettings">
-        <h1>settings</h1>
+        <h1>Settings</h1>
         <hr></hr>
-        <RoundBox color="grey">
+        <RoundBox color="grey scrollbox">
             <RoundBox color="darkTeal">
                 <p><b>Group Name:</b><br></br></p>
                 <RoundBox color="teal">
-                    <p>Swimmy Seniors</p>
+                    <p>Swift Skiers</p>
                 </RoundBox>
             </RoundBox>
             <RoundBox color="darkTeal">
                 <p><b>Pace:</b></p>
                 <RoundBox color="teal">
-                    <p>15:30/mile</p>
+                    <p>4:36/mile</p>
                 </RoundBox>
             </RoundBox>
             <RoundBox color="darkTeal">
                 <p><b>Group Description:</b></p>
                 <RoundBox color="teal">
-                    <p>Just a couple of swimmy seniors looking to have to a good time in the water! Meetings every other Wednesday.</p>
+                    <p>Just a couple of people looking to have fun and meet new people on the slopes! Meetings every other Wednesday.</p>
                 </RoundBox>
             </RoundBox>
             <RoundBox color="darkTeal">
                 <p><b>Upcoming Workouts:</b><br></br>
                 Name:</p>
                 <RoundBox color="teal">
-                    <p>Sunrise Swim</p>
+                    <p>Sunrise Ski</p>
                 </RoundBox>
                 <p>Date:</p>
                 <RoundBox color="teal">
@@ -51,11 +51,6 @@ function HostSettings() {
 
         </RoundBox>
 
-
-
-        <RoundBox color="maroon">
-          <p>hi please work now</p>
-        </RoundBox>
         
     </div>
     );

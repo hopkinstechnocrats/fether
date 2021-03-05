@@ -9,3 +9,8 @@ div.group-title {
 div.boundedScrollbox {
     max-height: 30%;
 }
+
+.scrollbox {
+    flex-grow: 1;
+    overflow: scroll;
+}
