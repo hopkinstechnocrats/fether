@@ -17,7 +17,7 @@ div.boundedScrollbox {
 }
 
 .GroupPage {
-  max-height: 35%;
+  max-height: 33%;
   display: flex;
   flex-flow: column;
 }
