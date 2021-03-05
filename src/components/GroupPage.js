@@ -3,10 +3,9 @@ import RoundBox from './RoundBox.js';
 
 function GroupPage() {
     return (
-        <div>
-            <div className="group-header">
+        <div className="container"> 
                 <RoundBox color="grey">
-                    <div>
+                    <div className="row">
                     <div className="column">
                         <h1>Group Name</h1>
                     </div>
@@ -15,10 +14,11 @@ function GroupPage() {
                         Founded <b>11/26/2003</b><br/>
                         Running ~ 11:00/mile
                     </div>   
+                    <div className="clear-both">
+
+                    </div>
                     </div>
                 </RoundBox>
-            </div>
-            
         </div>
     );
 }

@@ -5,23 +5,11 @@ import RoundBox from './RoundBox.js';
 function Profile() {
   return(
     <div className="Profile">
-      <h2>Profile</h2>
+     <center> <h2>Profile</h2>
       <span class="dot"></span>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <h3>Taylor S.</h3>
       <p>West Redding, PA
-      <br>Bio</p>
-=======
-      <h3>Name</h3>
-      <p>City, State
-      <br/>Bio</p>
->>>>>>> 49f47f47a94ae5ce8cfa6e1d8a5ce23b3f815bec
-=======
-      <h3>Name</h3>
-      <p>City, State
-      <br/>Bio</p>
->>>>>>> 27829caa57f883b0ac931d633ca4590e0f556f53
+      <br />Bio</p>
       <table>
         <tr>
           <th>Age</th>
@@ -31,7 +19,7 @@ function Profile() {
           <td>31</td>
           <td>Skiing, Roller Skating, Biking</td>
         </tr>
-      </table>
+      </table> </center>
       <RoundBox color="grey">
         <h4>Hosted Events</h4>
         <p><b>Valentines Walk</b>
