@@ -22,7 +22,7 @@ function App() {
       <div label="Profile">
         <Profile></Profile>
       </div>
-      <div label="HostSettings">
+      <div label="Host Settings">
         <HostSettings></HostSettings>
       </div>
       <div label="Chatboard">
@@ -35,7 +35,6 @@ function App() {
     </Tabs>
   );
 }
-
       
 
 

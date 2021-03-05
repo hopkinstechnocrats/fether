@@ -21,3 +21,6 @@ table, th, td {
   display: flex;
   flex-flow: column;
 }
+h3 {
+  color:white;
+}
