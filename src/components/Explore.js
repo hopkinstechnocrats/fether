@@ -7,9 +7,9 @@ function Explore() {
     <div className="exploreContainer">
     <h1>Explore</h1>
       <RoundBox color="grey scrollbox">
-
       <RoundBox color="teal">
-        <p><b><u>JungKook Joggers</u></b><br></br>
+        <p><b><u>JungKook Joggers
+        </u></b><br></br>
         56 members<br></br>
         Founded 11/26/2003<br></br>
         Running ~ 5:43/mile</p>
