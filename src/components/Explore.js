@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import RoundBox from './RoundBox.js';
+import './Explore.css';
 
 function Explore() {
     return (
-    <div>
+    <div className="exploreContainer">
     <h1>explore</h1>
-      <RoundBox color="grey">
+      <RoundBox color="grey scrollbox">
 
       <RoundBox color="teal">
         <p><b><u>JungKook Joggers</u></b><br></br>
