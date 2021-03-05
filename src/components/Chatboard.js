@@ -6,8 +6,7 @@ import './RoundBox.css';
 function Chatboard() {
     return(
         <div className="Chatboard">
-            <div className="BackgroundBox">
-            <RoundBox color="grey">
+            <RoundBox className="BackgroundBox" color="grey">
         <div className="SendChat">
             <RoundBox color="sendChat">
                 <p>Sending a message out.</p>
@@ -25,7 +24,6 @@ function Chatboard() {
             defaultValue="Send a message to the group"></input>
         </div>
         </RoundBox>
-        </div>
         </div>
     );
 }
