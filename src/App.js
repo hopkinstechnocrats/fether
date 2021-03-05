@@ -17,7 +17,7 @@ function App() {
         <Schedule></Schedule>
       </div>
       <div label="Explore">
-        <Explore></Explore>
+        <Explore> </Explore>
       </div>
       <div label="Profile">
         <Profile></Profile>
