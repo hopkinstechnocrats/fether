@@ -5,7 +5,7 @@ import './Explore.css';
 function Explore() {
     return (
     <div className="exploreContainer">
-    <h1>explore</h1>
+    <h1>Explore</h1>
       <RoundBox color="grey scrollbox">
 
       <RoundBox color="teal">
