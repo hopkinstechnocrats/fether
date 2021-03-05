@@ -10,16 +10,16 @@ function GroupPage() {
                 <RoundBox color="grey">
                     <div className="row">
                     <div className="column group-title">
-                        <h1>Group Name</h1>
+                        <h1>Swift Skiers</h1>
                     </div>
                     <div className="column">
                         56 members <br/>
                         Founded <b>11/26/2003</b><br/>
-                        Running ~ 11:00/mile
+                        Skiing ~ 4:36/mile
                     </div>   
                     </div>
                 </RoundBox>
-                <p className="textWithMargin">Welcome! We’re a group of friendly, neighborhood joggers. Most of our members are 50+ years old, and we get together every Sunday to walk/run a marathon.</p>
+                <p className="textWithMargin">Welcome, we’re a group of friendly skiers! We meet every other Wednesday and at some other events. We are mostly in our 30's but welcome anyone who loves to ski!</p>
                 <div className="column">
                 <div className="row">
                 <RoundBox color="grey scrollbox boundedScrollbox">

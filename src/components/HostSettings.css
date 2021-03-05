@@ -1,3 +1,7 @@
 .HostSettings {
    max-height: 400px;
 }
+.scrollbox {
+    flex-grow: 1;
+    overflow: scroll;
+}
