@@ -7,9 +7,15 @@ function Profile() {
     <div className="Profile">
       <h2>Profile</h2>
       <span class="dot"></span>
+<<<<<<< HEAD
       <h3>Taylor S.</h3>
       <p>West Redding, PA
       <br>Bio</p>
+=======
+      <h3>Name</h3>
+      <p>City, State
+      <br/>Bio</p>
+>>>>>>> 49f47f47a94ae5ce8cfa6e1d8a5ce23b3f815bec
       <table>
         <tr>
           <th>Age</th>
@@ -23,12 +29,14 @@ function Profile() {
       <RoundBox color="grey">
         <h4>Hosted Events</h4>
         <p><b>Valentines Walk</b>
-        <br>February 14, 2021
-        <br>West Redding, PA
-        <br>3 miles
-        <br>18 min./mile
+        <br/>February 14, 2021
+        <br/>West Redding, PA
+        <br/>3 miles
+        <br/>18 min./mile
         </p>
       </RoundBox>
     </div>
   );
 }
+
+export default Profile;
