@@ -20,6 +20,8 @@
     /*positioning*/
     flex: 0 1 20vh;
     width:calc(100%+20px);
+    margin: -10px;
+    margin-top:;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,8 +44,9 @@
     margin-right:0px;
     display:flex;
     justify-content:flex-end;
-
 }
+
+
 
 .sendChat {
     box-sizing: border-box;
