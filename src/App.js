@@ -26,11 +26,7 @@ function App() {
         <HostSettings></HostSettings>
       </div>
       <div label="Chatboard">
-<<<<<<< HEAD
-      <h1>Swift Skiers</h1>
-=======
         <h1>JungKook Joggers</h1>
->>>>>>> acd04747024200a7154ed6852d45998281a1d50d
         <Chatboard></Chatboard>
       </div>
       <div label="Group">
