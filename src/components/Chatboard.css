@@ -1,12 +1,24 @@
 
-.BackgroundBox .RoundBox .grey{
-    padding:0px;
-    margin:0px;
+.BackgroundBox .RoundBox{
+    padding:10px;
+    margin:10px;
+    height: calc(100% - 20px);
+    display: flex;
+    flex-flow: column;
+    overflow:hidden;
+}
+
+.BackgroundBox {
+    flex: 1 1 auto;
+}
+
+.viewMessages {
+    flex: 1 0 auto;
 }
 
 .SendingMessages {
     /*positioning*/
-    height:20vh;
+    flex: 0 1 20vh;
     width:calc(100%+20px);
     display: flex;
     justify-content: center;
@@ -15,9 +27,7 @@
     background-color: #053638;
     color:white;
     /*Other*/
-   
     margin: -10px;
-
 }
 
 .Typebox {
