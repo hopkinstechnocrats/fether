@@ -1,3 +1,11 @@
 div.group-header {
-    height: 20%
+    height: 20%;
+}
+
+div.group-title {
+    justify-content: center;
+}
+
+div.boundedScrollbox {
+    max-height: 30%;
 }

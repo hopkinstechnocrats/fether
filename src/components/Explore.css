@@ -1,7 +1,3 @@
-.scrollbox {
-    flex-grow: 1;
-    overflow: scroll;
-}
 
 div.exploreContainer {
     height: 100%;

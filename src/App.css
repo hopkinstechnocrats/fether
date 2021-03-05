@@ -41,6 +41,12 @@
   }
 }
 
+.scrollbox {
+  flex-grow: 1;
+  overflow: scroll;
+}
+
+
 h1 {
   font-family:sans-serif;
   font-weight: 800;
@@ -58,6 +64,10 @@ div.column {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+}
+
+p.textWithMargin {
+  margin: 20px;
 }
 
 div.row {

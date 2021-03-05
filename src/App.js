@@ -13,6 +13,7 @@ function App() {
   return (
     <Tabs>
       <div label="Schedule">
+      <h1>Schedule</h1>
         <Schedule></Schedule>
       </div>
       <div label="Explore">
