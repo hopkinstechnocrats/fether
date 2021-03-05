@@ -5,7 +5,7 @@ import RoundBox from './RoundBox.js';
 function Profile() {
   return(
     <div className="Profile">
-      <h2>Profile</h2>
+     <center> <h2>Profile</h2>
       <span class="dot"></span>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31,7 +31,7 @@ function Profile() {
           <td>31</td>
           <td>Skiing, Roller Skating, Biking</td>
         </tr>
-      </table>
+      </table> </center>
       <RoundBox color="grey">
         <h4>Hosted Events</h4>
         <p><b>Valentines Walk</b>
