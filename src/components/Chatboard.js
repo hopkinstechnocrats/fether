@@ -15,7 +15,7 @@ function Chatboard() {
             </RoundBox>
         <div className="SendingMessages">
             <label for="sent messages">Send a message to the group</label>
-            <input class="Chatbox" type="text"
+            <input class="Typebox" type="text"
             name="sent messages"
             id="sent messages"></input>
         </div>
