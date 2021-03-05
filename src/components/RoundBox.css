@@ -32,18 +32,12 @@
     background-color: #c05000;
 }
 
-.RoundBox-darkTeal {
-  box-sizing: border-box;
-    padding: 15px;
-    margin: 8px;
-    border-radius: 10px;
+.darkTeal {
     background-color: #053638;
-    color:white;
-    line-height:1.5;
-    text-align:left;
-    padding-top: 0px;
-    padding-bottom:0px;
+}
 
+.maroon {
+    background-color: #870725;
 }
 
 .RoundBox-maroon {

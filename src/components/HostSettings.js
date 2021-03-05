@@ -4,7 +4,7 @@ import './HostSettings.css';
 function HostSettings() {
     return(
     <div className="HostSettings">
-        <h1>settings</h1>
+        <h1>Settings</h1>
         <hr></hr>
         <RoundBox color="grey scrollbox">
             <RoundBox color="darkTeal">
