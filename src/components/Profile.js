@@ -5,7 +5,7 @@ import RoundBox from './RoundBox.js';
 function Profile() {
   return(
     <div className="Profile">
-     <center> <h2>Profile</h2>
+      <center> <h2>Profile</h2>
       <span class="dot"></span>
       <h3>Taylor S.</h3>
       <p>West Redding, PA
@@ -20,14 +20,16 @@ function Profile() {
           <td>Skiing, Roller Skating, Biking</td>
         </tr>
       </table> </center>
-      <RoundBox color="grey">
-        <h4>Hosted Events</h4>
+      <RoundBox color="grey scrollbox">
+      <RoundBox color="teal">
+        <h3>Hosted Events</h3>
         <p><b>Valentines Walk</b>
         <br/>February 14, 2021
         <br/>West Redding, PA
         <br/>3 miles
         <br/>18 min./mile
         </p>
+      </RoundBox>
       </RoundBox>
     </div>
   );
