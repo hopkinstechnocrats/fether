@@ -18,8 +18,25 @@ class Chatboard extends Component {
                     innerType: "receiveChat",
                     text: "And I've received your text! lol Let's make this really long and see what happens to it, shall we?"
                 }
-            ]
+            ],
+            value: "Send a message to the group"
         }
+    }
+
+    handleSubmit = () => {
+        this.setState({
+            messages: this.state.messages.push(
+                {
+                    outerType: "ReceiveChat",
+                    innerType: "receiveChat",
+                    text: this.state.value
+                }
+            )
+        });
+    }
+
+    handleChange = (event) => {
+        this.setState({ value: event.target.value });
     }
 
     render() {
@@ -27,23 +44,26 @@ class Chatboard extends Component {
             <div className="BackgroundBox">
                 <RoundBox color="grey">
                     <div className="viewMessages">
-                    {this.state.messages.map(
-                        (value) => {
-                            return (
-                                <div className={value.outerType}>
-                                    <RoundBox color={value.innerType}>
-                                        <p>{value.text}</p>
-                                    </RoundBox>
-                                </div>
-                            );
-                        }
-                    )}
+                        {this.state.messages.map(
+                            (value) => {
+                                return (
+                                    <div className={value.outerType}>
+                                        <RoundBox color={value.innerType}>
+                                            <p>{value.text}</p>
+                                        </RoundBox>
+                                    </div>
+                                );
+                            }
+                        )}
                     </div>
                     <div className="SendingMessages">
-                        <input className="Typebox" type="text"
-                            name="sent messages"
-                            id="sent messages"
-                            defaultValue="Send a message to the group"></input>
+                        <form onSubmit={this.handleSubmit}>
+                            <input className="Typebox" type="text"
+                                name="sent messages"
+                                id="sent messages"
+                                value={this.state.value} onChange={this.handleChange}></input>
+                            <input type="submit" value="submit" />
+                        </form>
                     </div>
                 </RoundBox>
             </div>
