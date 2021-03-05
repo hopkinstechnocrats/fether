@@ -17,12 +17,14 @@ function App() {
         <Schedule></Schedule>
       </div>
       <div label="Explore">
-        <Explore></Explore>
+        <Explore> </Explore>
+        <i class="fas fa-globe-americas"></i>
       </div>
       <div label="Profile">
         <Profile></Profile>
+        <i class="fas fa-user-alt"></i>
       </div>
-      <div label="HostSettings">
+      <div label="Host Settings">
         <HostSettings></HostSettings>
       </div>
       <div label="Chatboard">
@@ -30,12 +32,12 @@ function App() {
         <Chatboard></Chatboard>
       </div>
       <div label="Group">
-        <GroupPage></GroupPage>
+        <GroupPage>
+        </GroupPage>
       </div>
     </Tabs>
   );
 }
-
       
 
 

@@ -25,11 +25,11 @@
 }
 
 .grey {
-    background-color: #d7e7e7;
+    background-color: #dfecec;
 }
 
 .orange {
-    background-color: #d1b723;
+    background-color: #d87300;
 }
 
 .darkTeal {
@@ -37,7 +37,7 @@
 }
 
 .maroon {
-    background-color: #870725;
+    background-color: #ce1a44;
 }
 
 .RoundBox-maroon {
@@ -45,7 +45,7 @@
     padding: 15px;
     margin: 8px;
     border-radius: 10px;
-    background-color: #870725;
+    background-color: #ce1a44;
     color:white;
     line-height:1.5;
     text-align:left;
