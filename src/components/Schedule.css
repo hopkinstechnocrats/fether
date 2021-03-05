@@ -2,4 +2,9 @@ div.schedule {
     height:100%;
     display: flex;
     flex-flow:column;
+    align-items:center;
+}
+
+.backgroundBox {
+
 }
