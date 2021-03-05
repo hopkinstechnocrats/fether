@@ -11,13 +11,20 @@
 .SendingMessages {
     background-color: #053638;
     color:white;
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
     
 }
 
-.Chatboard {
+.Typebox {
     min-height:700px;
     margin:0px;
     padding: 0px;
+    width:90%;
 }
 
 .sendChat {
