@@ -1,5 +1,7 @@
 .HostSettings {
-   max-height: 400px;
+   max-height: 100%;
+   display: flex;
+   flex-flow: column;
 }
 .scrollbox {
     flex-grow: 1;
