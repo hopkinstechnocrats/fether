@@ -3,3 +3,7 @@ div.schedule {
     display: flex;
     flex-flow:column;
 }
+
+div.RoundBox.grey {
+    flex: 1 1 auto;
+}
