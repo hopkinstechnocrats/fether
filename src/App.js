@@ -17,7 +17,7 @@ function App() {
         <Schedule></Schedule>
       </div>
       <div label="Explore">
-        <Explore></Explore>
+        <Explore> </Explore>
       </div>
       <div label="Profile">
         <Profile></Profile>
@@ -30,7 +30,8 @@ function App() {
         <Chatboard></Chatboard>
       </div>
       <div label="Group">
-        <GroupPage></GroupPage>
+        <GroupPage>
+        </GroupPage>
       </div>
     </Tabs>
   );

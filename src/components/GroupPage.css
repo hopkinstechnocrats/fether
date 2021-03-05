@@ -11,7 +11,7 @@ div.boundedScrollbox {
 }
 
 .scrollbox {
-    max-height: 35%;
+    max-height: 100%;
     flex-grow: 1;
     overflow: scroll;
 }
