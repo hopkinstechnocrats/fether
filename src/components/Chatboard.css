@@ -1,25 +1,21 @@
-.Chatbox {
-    min-height: 80px;
-    padding-top: 0px;
+
+.BackgroundBox .RoundBox .grey{
+    padding:0px;
     margin:0px;
-    border:0px;
-    font-size:medium;
-    border-radius: 10px;
-    
 }
 
 .SendingMessages {
     /*positioning*/
     height:20vh;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /*coloring*/
     background-color: #053638;
     color:white;
-
-
-    
+    /*Other*/
+    border-radius:10px;
 }
 
 .Typebox {
@@ -40,8 +36,7 @@
     color:white;
     text-align:left;
     line-height: 1.5;
-    max-width: 250px;
-    display: flex;
+    max-width: 75%;
     justify-content: right;
     flex-flow: column wrap;
     padding-top:0px;
@@ -58,10 +53,8 @@
     color:white;
     text-align:left;
     line-height: 1.5;
-    max-width: 250px;
-    display: flex;
-    justify-content: left;
-    flex-flow: column wrap;
+    max-width: 75%;
+    flex-flow:column-wrap;
     padding-top:0px;
     padding-bottom: 0px;
   }
