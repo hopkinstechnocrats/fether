@@ -30,7 +30,8 @@ function App() {
         <Chatboard></Chatboard>
       </div>
       <div label="Group">
-        <GroupPage></GroupPage>
+        <GroupPage>
+        </GroupPage>
       </div>
     </Tabs>
   );
