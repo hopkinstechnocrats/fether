@@ -9,22 +9,26 @@
 }
 
 .SendingMessages {
-    background-color: #053638;
-    color:white;
+    /*positioning*/
     height:20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    /*coloring*/
+    background-color: #053638;
+    color:white;
 
 
     
 }
 
 .Typebox {
-    min-height:700px;
     margin:0px;
-    padding: 0px;
+    padding: 5px;
     width:90%;
+    height:80%;
+    border-radius:10px;
+    color: rgba(0, 0, 0, 0.596);
 }
 
 .sendChat {
