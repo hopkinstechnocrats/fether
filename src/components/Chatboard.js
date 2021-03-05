@@ -7,6 +7,8 @@ function Chatboard() {
     return(
         <div className="Chatboard">
             <h1>JungKook Joggers</h1>
+            <div className="BackgroundBox">
+            <RoundBox color="grey">
             <RoundBox color="sendChat">
                 <p>Sending a message out.</p>
             </RoundBox>
@@ -14,12 +16,13 @@ function Chatboard() {
                 <p>And I've received your text! lol Let's make this really long and see what happens to it, shall we?</p>
             </RoundBox>
         <div className="SendingMessages">
-            <label for="sent messages">Send a message to the group</label>
-            <input class="Typebox" type="text"
+            <input className="Typebox" type="text"
             name="sent messages"
-            id="sent messages"></input>
+            id="sent messages"
+            defaultValue="Send a message to the group"></input>
         </div>
-
+        </RoundBox>
+        </div>
         </div>
     );
 }
