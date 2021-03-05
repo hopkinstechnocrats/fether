@@ -15,9 +15,7 @@
     background-color: #053638;
     color:white;
     /*Other*/
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
-    border-radius:10px;
+   
     margin: -10px;
 
 }
@@ -30,22 +28,23 @@
     border-radius:10px;
     color: rgba(0, 0, 0, 0.596);
 }
+.SendChat {
+    margin-right:0px;
+}
 
 .sendChat {
     box-sizing: border-box;
     padding: 10px;
-    margin: 8px;
+    margin: 0px;
     border-radius: 10px;
     background-color: #256d70;
     color:white;
     text-align:left;
     line-height: 1.5;
     max-width: 75%;
-    justify-content: right;
     flex-flow: column wrap;
     padding-top:0px;
     padding-bottom: 0px;
-    float: right;
   }
   
   .receiveChat {
