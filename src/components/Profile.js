@@ -7,6 +7,7 @@ function Profile() {
     <div className="Profile">
       <center> <h2>Profile</h2>
       <span class="dot"></span>
+      <i class="fas fa-user-circle"></i>
       <h2>Taylor S.</h2>
       <h4>West Redding, PA
       <br />Bio</h4>
