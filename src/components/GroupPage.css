@@ -21,3 +21,42 @@ div.boundedScrollbox {
   display: flex;
   flex-flow: column;
 }
+
+.joinbutton {
+    text-align: center;
+    color: #ffffff;
+}
+
+.joinbutton-dark {
+    text-align: center;
+    color: #000000;
+}
+
+.openButton {
+    width: 10vh;
+    margin: 0;
+}
+
+.openButton h3 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.openButton .RoundBox {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.GroupPage div.RoundBox div.row div.column {
+    vertical-align: middle;
+}
+
+div.GroupPage div.RoundBox div.row div.column h2{
+    vertical-align: middle;
+}
+
+div.container h4 {
+    margin: 10px;
+    padding: 10px;
+}

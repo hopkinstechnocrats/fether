@@ -8,6 +8,7 @@ import Explore from './components/Explore.js'
 import Chatboard from './components/Chatboard.js';
 import GroupPage from './components/GroupPage.js';
 import Profile from './components/Profile.js';
+import TrainingPlan from './components/TrainingPlan';
 
 function App() {
   return (
@@ -29,9 +30,12 @@ function App() {
         <h1>Swift Skiers</h1>
         <Chatboard></Chatboard>
       </div>
-      <div label="Group"icon={<i class="fas fa-users"></i>}>
+      <div label="Group" icon={<i class="fas fa-users"></i>}>
         <GroupPage>
         </GroupPage>
+      </div>
+      <div label="TrainingPlan">
+        <TrainingPlan></TrainingPlan>
       </div>
     </Tabs>
   );

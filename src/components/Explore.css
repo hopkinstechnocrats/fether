@@ -4,6 +4,3 @@ div.exploreContainer {
     display: flex;
     flex-flow: column;
 }
-p {
-  color: white;
-}

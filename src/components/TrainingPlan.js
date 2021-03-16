@@ -5,7 +5,7 @@ import Schedule from './Schedule.js';
 import Chatboard from './Chatboard.js';
 import {Link} from 'react-router-dom';
 
-class GroupPage extends Component {
+class TrainingPlan extends Component {
 
     constructor (props) {
         super(props);
@@ -16,9 +16,7 @@ class GroupPage extends Component {
     }
 
     transition = {
-        "nonmember": "waiting",
-        "waiting": "approved",
-        "approved": "member",
+        "nonmember": "member",
         "member": "member"
     };
 
@@ -37,15 +35,12 @@ class GroupPage extends Component {
         let bottomView;
         if (this.state.status == 'nonmember') {
             bottomView = 
-                <RoundBox color="darkTeal" onClick={this.handleClick}>
-                    <h3 className="joinbutton">Request to Join</h3>
-                </RoundBox>;
-        } else if (this.state.status == 'waiting') {
-            bottomView = 
-                <h3 onClick={this.handleClick} className="joinbutton-dark">Waiting for host approval</h3>;
-        } else if (this.state.status == "approved") {
-            bottomView = 
-            <h3 onClick={this.handleClick} className="joinbutton-dark">Your request to join was approved! Welcome to Swift Skiers!</h3>;
+            <div>
+                <h4>Group Discount: <b>$26/month</b></h4>
+                <RoundBox color="maroon" onClick={this.handleClick}>
+                    <h3 className="joinbutton">Purchase Training Plan</h3>
+                </RoundBox>
+                </div>;
         } else if (this.state.status == "member") {
             bottomView = <div className="container">
             <div className="GroupPage">
@@ -88,16 +83,16 @@ class GroupPage extends Component {
                     <RoundBox color="grey">
                         <div className="row">
                         <div className="column group-title">
-                            <h1>Swift Skiers</h1>
+                            <h1>10k Training Plan</h1>
                         </div>
                         <div className="column">
-                            56 members <br/>
+                            32 members <br/>
                             Founded <b>11/26/2003</b><br/>
-                            Skiing ~ 4:36/mile
+                            Running ~7:30/mile
                         </div>   
                         </div>
                     </RoundBox>
-                    <p className="textWithMargin">Welcome, we’re a group of friendly skiers! We meet every other Wednesday and at some other events. We are mostly in our 30's but welcome anyone who loves to ski!</p>
+                    <p className="textWithMargin">Welcome to our 10k training group! We are a group of athletes who want to push ourselves to improve our 10k times and our fitness.</p>
 
                 {bottomView}
             </div>
@@ -105,4 +100,4 @@ class GroupPage extends Component {
 }
 }
 
-export default GroupPage;
+export default TrainingPlan;

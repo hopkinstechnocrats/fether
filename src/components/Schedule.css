@@ -2,16 +2,8 @@ div.schedule {
     height:100%;
     display: flex;
     flex-flow:column;
-<<<<<<< HEAD
-    align-items:center;
-}
-
-.backgroundBox {
-
-=======
 }
 
 div.RoundBox.grey {
     flex: 1 1 auto;
->>>>>>> 71647916edd74b5f52591504c5ad0798f97ab8f7
 }

@@ -21,7 +21,7 @@ class Chatboard extends Component {
                     msgkey: 1
                 }
             ],
-            value: "Send a message to the group",
+            value: "",
             nextmsgkey: 2
         }
     }

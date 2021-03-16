@@ -6,7 +6,7 @@ class RoundBox extends React.Component {
     render() {
         let classname = "RoundBox "+this.props.color;
         return (
-            <div className={classname} >
+            <div className={classname} onClick={this.props.onClick}>
                 {this.props.children}
             </div>
         );

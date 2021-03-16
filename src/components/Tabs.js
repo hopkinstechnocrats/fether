@@ -60,7 +60,9 @@ class Tabs extends Component {
                     </div>
                     <ol className="tab-list">
                         {
-                            children.map(
+                            children
+                                .filter((child) => child.props.icon != null)
+                                .map(
                                 (child) => {
                                     const { label, icon } = child.props;
 

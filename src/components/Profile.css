@@ -21,6 +21,6 @@ table, th, td {
   display: flex;
   flex-flow: column;
 }
-h3 {
+.Profile h3 {
   color:white;
 }
